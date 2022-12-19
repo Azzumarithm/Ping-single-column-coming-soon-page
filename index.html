@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/143a57b720.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="images/logo.svg" alt="">
+  </div>
+  
+  
+  <div class="description-container">
+    <div class="description">
+      <p class="launching">We are launching <span>soon!</span></p>
+      <p class="subscribe">Subscribe and get notified</p>
+    </div>
+  </div>
+  <div class="email-container">
+    <div class="input-email">
+      <form>
+        <label for="email"></label>
+        <input type="text" placeholder="Your email here" id="email">
+        <button onclick="validate()" id ="notify" type="button"  ><strong>Notify Me</strong></button>
+        <p id ="validity"></p>
+
+      </form>
+
+    </div>
+  </div>
+
+  <div class="image-container">
+
+    <div class="image">
+      <img src="images/illustration-dashboard.png" alt="image">
+
+    </div>
+  </div>    
+
+  <div class="socialmedia-container">
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    
+  </div>
+  
+  <div class="copywright">
+    &copy; Copyright Ping. All rights reserved.
+  </div>
+  <div class="attribution-container">
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/Azzumarithm/Ping-single-column-coming-soon-page">Azzumarithm</a>.
+      </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
